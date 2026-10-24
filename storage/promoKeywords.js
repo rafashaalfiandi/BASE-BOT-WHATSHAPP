@@ -1,0 +1,22 @@
+module.exports = [
+  'open reseller',
+  'open jasa',
+  'jasa suntik',
+  'jasa topup',
+  'top up murah',
+  'followers murah',
+  'like murah',
+  'panel murah',
+  'murah meriah',
+  'slot gacor',
+  'casino',
+  'judol',
+  'deposit',
+  'bonus new member',
+  'pinjaman online',
+  'paylater',
+  'freebet',
+  'promo terbatas',
+  'diskon besar',
+  'hubungi admin'
+];

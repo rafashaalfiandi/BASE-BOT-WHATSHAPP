@@ -1,0 +1,24 @@
+{
+    "name": "base-by-rafashacodeid-multidevice",
+    "version": "1.0.0",
+    "description": "Node.js multi-device WhatsApp bot built with Baileys, featuring group moderation and administration commands.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "node --test",
+        "check": "node --check index.js && node --check case.js && node --check config.js && node --check lib/safe-calculator.js && node --check lib/command-prefix.js"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "author": "Rafasha Alfiandi Passage",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@hapi/boom": "^9.1.3",
+        "@whiskeysockets/baileys": "npm:rafashacode.id@^1.0.1",
+        "chalk": "^4.1.2",
+        "moment-timezone": "^0.5.48",
+        "node-cache": "^5.1.2",
+        "pino": "^7.11.0"
+    }
+}
